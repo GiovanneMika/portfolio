@@ -23,36 +23,42 @@
             "finalizado" => false,
             "ano" => 2025,
             "descricao" => "Este é o portfolio de $nome, escrito em PHP e HTML, criado em $anoDoProjeto. O projeto '$projeto' está " . ($finalizado ? "finalizado." : "em andamento."),
+            "stack" => ["PHP", "HTML", "CSS", "JavaScript"]
         ],
         [
             "titulo" => "Blog pessoal",
             "finalizado" => true,
             "ano" => 2024,
             "descricao" => "Um blog pessoal onde compartilho minhas ideias e experiências.",
+            "stack" => ["PHP", "HTML"]
         ],
         [
             "titulo" => "Loja virtual",
             "finalizado" => true,
             "ano" => 2023,
             "descricao" => "Uma loja virtual para venda de produtos diversos.",
+            "stack" => ["PHP", "HTML"]
         ],
         [
             "titulo" => "Aplicativo de tarefas",
             "finalizado" => false,
             "ano" => 2025,
             "descricao" => "Um aplicativo para gerenciar tarefas diárias e aumentar a produtividade.",
+            "stack" => ["PHP", "HTML", "JavaScript"]
         ],
         [
             "titulo" => "Sistema de reservas",
             "finalizado" => true,
             "ano" => 2022,
             "descricao" => "Um sistema para gerenciar reservas em restaurantes.",
+            "stack" => ["PHP", "HTML"]
         ],
         [
             "titulo" => "Site institucional",
             "finalizado" => true,
             "ano" => 2021,
             "descricao" => "Um site institucional para uma empresa de tecnologia.",
+            "stack" => ["PHP", "HTML"]
         ]
     ];
 

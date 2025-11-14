@@ -16,13 +16,14 @@
         <div class="w-1/3">
             <ul class="flex font-medium text-gray-300 justify-around gap-x-6">
                 <li>
-                    <a href="" class="hover:text-zinc-600">Projetos</a>
+                    <a href="#projetos" class="hover:text-zinc-600">Projetos</a>
                 </li>
                 <li>
-                    <a href="" class="hover:text-zinc-600">GitHub</a>
+                    <a href="https://github.com/GiovanneMika" class="hover:text-zinc-600">GitHub</a>
                 </li>
                 <li>
-                    <a href="" class="hover:text-zinc-600">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/giovanne-mika-b73179294/"
+                        class="hover:text-zinc-600">LinkedIn</a>
                 </li>
             </ul>
         </div>
@@ -44,30 +45,74 @@
                 </p>
                 <p>
                 <ul class="flex gap-x-3 mt-4">
-                    <li class="bg-blue-600 p-1"><a href="https://www.linkedin.com/in/giovanne-mika-b73179294/"
-                            target="_blank">LinkedIn</a></li>
-                    <li class="bg-red-600 p-1"><a href="">YouTube</a></li>
-                    <li class="bg-orange-600 p-1"><a href="">GitHub</a></li>
+                    <li class="transition hover:border hover:border-gray-300 hover:scale-110 border border-slate-900"><a
+                            href="https://www.linkedin.com/in/giovanne-mika-b73179294/" target="_blank"><img
+                                src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+                                alt="LinkedIn" /></a></li>
+                    <li class="transition hover:border hover:border-gray-300 hover:scale-110  border border-slate-900">
+                        <a href="https://www.youtube.com/@giovannemika-htmlsociety7622" target="_blank"><img
+                                src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
+                                alt="YouTube" /></a>
+                    </li>
+                    <li class="transition hover:border hover:border-gray-300 hover:scale-110 border border-slate-900"><a
+                            href="https://github.com/GiovanneMika" target="_blank"><img
+                                src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+                                alt="GitHub" />
+                        </a></li>
+                    <li class="transition hover:border hover:border-gray-300 hover:scale-110 border border-slate-900"><a
+                            href="mailto:giovannemika18@gmail.com">
+                            <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+                                alt="Gmail" />
+                        </a>
+                    </li>
                 </ul>
                 </p>
             </div>
             <!-- Imagem -->
             <div class="md:size-1/3 sm:size-3/6 my-6 size-4/6">
-                <img class="rounded-full " src="https://avatars.githubusercontent.com/u/69139838?v=4" alt="">
+                <img class="rounded-full active:animate-spin hover:cursor-pointer"
+                    src="https://avatars.githubusercontent.com/u/69139838?v=4" alt="">
             </div>
         </section>
         <!-- Projetos -->
-        <section class="gap-y-6">
-            <h1 class="text-3xl font-bold">Projetos Recentes</h1>
+        <section class="gap-y-6" id="projetos">
+            <h2 class="text-3xl font-bold">Projetos Recentes</h2>
             <!-- Projeto -->
             <div class="my-5 flex p-4 items-center bg-slate-800 rounded-lg max-[550px]:flex-col max-[550px]:gap-y-6">
                 <div class="w-1/6 h-full flex justify-center items-center">
-                    <p class="text-8xl">📋</p>
+                    <p class="text-8xl -mt-4">💻</p>
                 </div>
                 <div class="size-5/6 max-[550px]:w-full">
                     <div class="flex ml-4 sm:flex-row flex-col">
-                        <h2 class="mr-4 text-2xl font-medium">Gerenciador de Empregos</h2>
-                        <ul class="flex gap-x-2 text-slate-800 font-medium text-xs items-center sm:mt-0 mt-2">
+                        <h3 class="mr-4 text-2xl font-semibold hover:text-slate-400"><a
+                                href="https://github.com/GiovanneMika/portfolio" target="_blank">⌛ Portfolio</a> <span
+                                class="text-xs text-gray-500 opacity-70 italic">(em andamento)</span></h3>
+                        <ul class="flex gap-x-2 text-slate-800 font-semibold text-xs items-center sm:mt-0 mt-2">
+                            <li class="rounded-lg bg-[#4F5B93] p-1">PHP</li>
+                            <li class="rounded-lg bg-blue-600 p-1">CSS</li>
+                            <li class="rounded-lg bg-orange-500 p-1">HTML</li>
+                            <li class="rounded-lg bg-sky-700 p-1">SQLite</li>
+                            <li class="rounded-lg bg-amber-400 p-1">JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="ml-4 mt-2 mr-4 text-gray-400">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias recusandae
+                            soluta assumenda dolorem accusamus perspiciatis! Recusandae alias beatae labore expedita
+                            odio ab cum temporibus. At dolores ullam quis? Doloremque!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-5 flex p-4 items-center bg-slate-800 rounded-lg max-[550px]:flex-col max-[550px]:gap-y-6">
+                <div class="w-1/6 h-full flex justify-center items-center">
+                    <p class="text-8xl -mt-4">📋</p>
+                </div>
+                <div class="size-5/6 max-[550px]:w-full">
+                    <div class="flex ml-4 sm:flex-row flex-col">
+                        <h3 class="mr-4 text-2xl font-semibold hover:text-slate-400"><a
+                                href="https://github.com/GiovanneMika/gerenciador-empregos" target="_blank">⌛
+                                Gerenciador de Empregos </a><span class="text-xs text-gray-500 opacity-70 italic">(em
+                                andamento)</span></h3>
+                        <ul class="flex gap-x-2 text-slate-800 font-semibold text-xs items-center sm:mt-0 mt-2">
                             <li class="rounded-lg bg-orange-600 p-1">Laravel</li>
                             <li class="rounded-lg bg-blue-600 p-1">CSS</li>
                             <li class="rounded-lg bg-orange-500 p-1">HTML</li>
@@ -83,13 +128,16 @@
                 </div>
             </div>
             <div class="my-5 flex p-4 items-center bg-slate-800 rounded-lg max-[550px]:flex-col max-[550px]:gap-y-6">
-                <div class="w-1/6 h-full flex justify-center items-center text-8xl">
-                    🐺
+                <div class="w-1/6 h-full flex justify-center items-center">
+                    <p class="text-8xl -mt-4">🐺</p>
                 </div>
                 <div class="size-5/6 max-[550px]:w-full">
                     <div class="flex ml-4 sm:flex-row flex-col">
-                        <h2 class="mr-4 text-2xl font-medium">ONG Los Lobos e Los Gatos</h2>
-                        <ul class="flex gap-x-2 text-slate-800 font-medium text-xs items-center sm:mt-0 mt-2">
+                        <h3 class="mr-4 text-2xl font-semibold hover:text-slate-400"><a
+                                href="https://github.com/pereirathiago/projeto-casa-los-lobos-los-gatos-backend"
+                                target="_blank">⌛ ONG Los Lobos e Los Gatos </a><span
+                                class="text-xs text-gray-500 opacity-70 italic">(em andamento)</span></h3>
+                        <ul class="flex gap-x-2 text-slate-800 font-semibold text-xs items-center sm:mt-0 mt-2">
                             <li class="rounded-lg bg-zinc-500 p-1">Next.js</li>
                             <li class="rounded-lg bg-sky-500 p-1">TailwindCSS</li>
                             <li class="rounded-lg bg-orange-500 p-1">HTML</li>
@@ -105,15 +153,14 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <!-- Data -->
-        <div>
-
-        </div>
-
-        <!-- Outros Links -->
-        <div>
-
+    <footer class="h-20 mx-auto max-w-screen-lg">
+        <div class="border-t border-gray-600">
+            <div>
+                <p class="text-center text-gray-500 text-sm py-4">© 2024 Feito por Giovanne Mika com ❤️ :)</p>
+            </div>
+            <!-- Outros Links -->
+            <div>
+            </div>
         </div>
     </footer>
 
