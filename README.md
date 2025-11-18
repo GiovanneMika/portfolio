@@ -27,7 +27,9 @@ Este é um projeto de portfólio desenvolvido em PHP, utilizando componentizaç�
 
 ## 🖼️ Demonstração
 
-Em breve 🚧
+Você pode visualizar o projeto rodando online através do GitHub Pages no link abaixo:
+
+🔗 **[Acesse o Portfólio Online](https://giovannemika.github.io/portfolio/)**
 
 ---
 
